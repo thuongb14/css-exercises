@@ -5,10 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      div{
+        color: white;
+        background-color: red;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+      }
+    </style>
   </head>
-  <body>
-    <div>Style me via the external method!</div>
+  <body> 
+    <div> Style me via the external method! </div>
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <style>
+      p{
+        color: white;
+        background-color: green;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    </style>
+    <button style="color:black; background-color: orange; font-size: 17px; font-weight: 300px; font-family: sans-serif;">Inline Method</button>
   </body>
 </html>
